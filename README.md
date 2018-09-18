@@ -29,7 +29,7 @@ The dataset includes the following files:
 =========================================
 
 - 'README'
-- 'codebook.txt': Shows information about the variables used on the feature vector.
+- 'codebook.md': Shows information about the variables used on the feature vector.
 - 'tidyAvgData.txt': List of all features.
 - 'run_analysis.R' : Programm to create tidyAvgData, using the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
