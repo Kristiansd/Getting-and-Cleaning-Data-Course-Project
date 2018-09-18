@@ -10,28 +10,37 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-time BodyAcc-XYZ
-time GravityAcc-XYZ
-time BodyAccJerk-XYZ
-time BodyGyro-XYZ
-time BodyGyroJerk-XYZ
-time BodyAccMag
-time GravityAccMag
-time BodyAccJerkMag
-time BodyGyroMag
-time BodyGyroJerkMag
-freq BodyAcc-XYZ
-freq BodyAccJerk-XYZ
-freq BodyGyro-XYZ
-freq BodyAccMag
-freq BodyAccJerkMag
-freq BodyGyroMag
-freq BodyGyroJerkMag
+Variables
+===
 
+- time BodyAcc-XYZ               
+- time GravityAcc-XYZ            
+- time BodyAccJerk-XYZ             
+- time BodyGyro-XYZ             
+- time BodyGyroJerk-XYZ         
+- time BodyAccMag               
+- time GravityAccMag            
+- time BodyAccJerkMag           
+- time BodyGyroMag              
+- time BodyGyroJerkMag          
+- freq BodyAcc-XYZ              
+- freq BodyAccJerk-XYZ          
+- freq BodyGyro-XYZ             
+- freq BodyAccMag
+- freq BodyAccJerkMag
+- freq BodyGyroMag
+- freq BodyGyroJerkMag
+
+Where:
+ - Acc : accelerometer signals
+ - Jerk : Jerk signals
+ - Mag : Magnitud
+ 
 The set of variables that were estimated from these signals are: 
+===========
 
-Mean value (): Mean value
-Standard deviation (): Standard deviation
-Mean value Freq(): Weighted average of the frequency components to obtain a mean frequency
+- Mean value (): Mean value
+- Standard deviation (): Standard deviation
+- Mean value Freq(): Weighted average of the frequency components to obtain a mean frequency
 
 The complete list of variables of each feature vector is available in 'tidyAvgData.txt'
